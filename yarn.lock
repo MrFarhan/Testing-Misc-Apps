@@ -6008,6 +6008,13 @@
   dependencies:
     "cross-fetch" "3.1.4"
 
+"i18next-locize-backend@^4.2.2":
+  "integrity" "sha512-HaAYBZmI0jruOf0NIonT24KJmPAHfuhtWs3CBEMxcEznQXv0zKgHzwJIIuofIwBRYKrpqiJcqJr++cVD/T+Gcw=="
+  "resolved" "https://registry.npmjs.org/i18next-locize-backend/-/i18next-locize-backend-4.2.2.tgz"
+  "version" "4.2.2"
+  dependencies:
+    "cross-fetch" "3.1.4"
+
 "i18next@^20.3.1", "i18next@>= 19.0.0":
   "integrity" "sha512-WTY07KreR5z2LBSzAIKs05zpR5tgUT98C4fD96e7Risbc/HZePwF6AEnb9VkjdeSeRn9PDqQBay7ZkphuXt0Xw=="
   "resolved" "https://registry.npmjs.org/i18next/-/i18next-20.3.1.tgz"
@@ -7421,6 +7428,18 @@
   "version" "5.0.0"
   dependencies:
     "p-locate" "^4.1.0"
+
+"locize-lastused@^3.0.12":
+  "integrity" "sha512-ipv8j7ChAaObXOhOqjB8T7Bp7EdFEC2wLNPuruwnrX6prNWirn4lbbFrPFWyDMTrF8ZBoF/BtdCcbgWLAp3s6Q=="
+  "resolved" "https://registry.npmjs.org/locize-lastused/-/locize-lastused-3.0.12.tgz"
+  "version" "3.0.12"
+  dependencies:
+    "cross-fetch" "3.1.4"
+
+"locize@^2.2.4":
+  "integrity" "sha512-JgPcuP6NUDN9WTPJZ94+ehwlQ0Z9OZqnkWoR6xnzrb/OaCTGL/K/ACFve7szKH7cWf+UbKkA2ra6i5t0ZFiGWw=="
+  "resolved" "https://registry.npmjs.org/locize/-/locize-2.2.4.tgz"
+  "version" "2.2.4"
 
 "lodash._reinterpolate@^3.0.0":
   "integrity" "sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0="

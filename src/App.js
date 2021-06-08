@@ -1,6 +1,7 @@
-import { useState } from 'react';
 import './App.css';
 import { useTranslation, Trans } from 'react-i18next';
+import { useState } from 'react';
+import Footer from './Footer';
 
 const lngs = {
   en: { nativeName: 'English' },
@@ -41,6 +42,7 @@ function App() {
           {t('description.part2')}
         </a>
       </header>
+      <Footer t={t}/>
     </div>
   );
 }

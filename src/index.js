@@ -1,14 +1,13 @@
-import React,{Suspense} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import './i18next-locize-backend'
+
 ReactDOM.render(
   <React.StrictMode>
-    <Suspense fallback="...is loading">
-      <App />
-    </Suspense>  </React.StrictMode>,
+    <App />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 
